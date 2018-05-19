@@ -267,6 +267,10 @@ will just execute the Ruby.
 
 **Students should try to add in ERB tags to `index.html.erb` and try different things. A good challenge: create a conditional in ERB that returns heads or tails based on a random number.**
 
+#### CFU
+
+Ideas: student turn & talk about the benefits of ERB, what is the difference between <%= %> and <% %>?, which parts of the code in the last two sections are ruby? html? 
+
 ### Variables
 
 Not only can you write Ruby inside HTML.. you can also _pass_ Ruby variables into
