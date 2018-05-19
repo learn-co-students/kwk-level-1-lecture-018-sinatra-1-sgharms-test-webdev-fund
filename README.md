@@ -265,6 +265,10 @@ it would display 'It's Tuesday My Friends!' _only_ on Tuesdays.
 Remember, `<%= %>` will print whatever is return from the Ruby inside, `<% %>`
 will just execute the Ruby.
 
+## CFU
+
+Ideas: student turn & talk about the benefits of ERB, what is the difference between <%= %> and <% %>?, which parts of the code in the last two sections are ruby? html? 
+
 **Students should try to add in ERB tags to `index.html.erb` and try different things. A good challenge: create a conditional in ERB that returns heads or tails based on a random number.**
 
 ### Variables
