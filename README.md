@@ -289,6 +289,10 @@ end
 
 Added to `index.html.erb`, the above line will print "I really love spicy tuna rolls"! Make sure every variable starts with `@`.  This is necessary for ERB to execute correctly.
 
+## CFU
+
+Think, Pair, Share <%= I Do, We Do, You Do: creating variables in the ApplicationController -> then students compare their You Do with a partner -> share out some responses to the class %>
+
 **Students should try creating variables in the ApplicationController**
 
 # That's Sinatra basics!
