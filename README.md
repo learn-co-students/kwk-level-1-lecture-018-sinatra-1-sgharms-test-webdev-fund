@@ -180,7 +180,7 @@ end
 
 ## CFU
 
-With a partner, figure out some commands that might be dynamic. Help students differentiate between dynamic v. static concepts.
+With a partner, write your own code for a dynamic response via Sinatra.
 
 ## Returning HTML
 
@@ -265,10 +265,6 @@ it would display 'It's Tuesday My Friends!' _only_ on Tuesdays.
 Remember, `<%= %>` will print whatever is return from the Ruby inside, `<% %>`
 will just execute the Ruby.
 
-## CFU
-
-Ideas: student turn & talk about the benefits of ERB, what is the difference between <%= %> and <% %>?, which parts of the code in the last two sections are ruby? html? 
-
 **Students should try to add in ERB tags to `index.html.erb` and try different things. A good challenge: create a conditional in ERB that returns heads or tails based on a random number.**
 
 ### Variables
@@ -294,6 +290,10 @@ Added to `index.html.erb`, the above line will print "I really love spicy tuna r
 Think, Pair, Share <%= I Do, We Do, You Do: creating variables in the ApplicationController -> then students compare their You Do with a partner -> share out some responses to the class %>
 
 **Students should try creating variables in the ApplicationController**
+
+## CFU
+
+Formative Assessment: use getformative.com or another formative assessment resource to develop short check-in quiz with live results. Determine and implement specific lesson adjustment (pinpoint, do over, individual check-in) if necessary, before proceeding to the next lesson.
 
 # That's Sinatra basics!
 
