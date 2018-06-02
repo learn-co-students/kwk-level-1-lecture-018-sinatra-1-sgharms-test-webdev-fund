@@ -50,10 +50,6 @@ application. On line 3 of `config.ru`, the word `run` on is Sinatra; it says,
 'hey, use this class as the object that has all the logic for our web
 application.' And with that... _our application starts._
 
-### CFU
-
-<insert CFU here: check student comprehension of the steps above + create flow chart / anchor chart>
-
 ### Building Routes to Content
 
 Again, Sinatra, in essence, is a Ruby app that, when started, will start
@@ -96,10 +92,6 @@ localhost:3000/sushi
 
 In this case, '/spaghetti', '/sushi', _and_ '/' are the specific paths within the site. If there isn't anything after the base URL, the path is equal to '/'.
 
-## CFU
-
-<insert CFU here (ideas: student turn & talk, create your own metaphor for Sinatra functionality, other?)>
-
 ## Writing the Recipe Instructions
 
 Sinatra knows what to do, it's a good cook, we just need to give it the
@@ -131,12 +123,7 @@ end
 And if our Sinatra app _gets_ a request for any of these, it will match our
 instructions and return the correct text!
 
-<!--  [Hello World
-Lab](https://github.com/learn-co-curriculum/kwk-l1-sinatra-hello-world-basics)
-(would love to this to mirror the structure from MVC in the starter as we'll
-never use app.rb in this course)  -->
-
-## CFU
+## Check For Understanding 
 
 Write your own set of recipe instructions. Instructor circulates to ensure
 student comprehension and one-on-one check-ins with scholars as necessary.
@@ -178,7 +165,7 @@ get '/current_date' do
 end
 ```
 
-## CFU
+## Check For Understanding (CFU)
 
 With a partner, write your own code for a dynamic response via Sinatra.
 
@@ -267,9 +254,9 @@ will just execute the Ruby.
 
 **Students should try to add in ERB tags to `index.html.erb` and try different things. A good challenge: create a conditional in ERB that returns heads or tails based on a random number.**
 
-#### CFU
+### CFU
 
-Ideas: student turn & talk about the benefits of ERB, what is the difference between <%= %> and <% %>?, which parts of the code in the last two sections are ruby? html? 
+Turn & talk about the benefits of ERB, what is the difference between <%= %> and <% %>?, Which parts of the code in the last two sections are ruby? html? 
 
 ### Variables
 
@@ -295,13 +282,7 @@ Think, Pair, Share <%= I Do, We Do, You Do: creating variables in the Applicatio
 
 **Students should try creating variables in the ApplicationController**
 
-## CFU
-
-Formative Assessment: use getformative.com or another formative assessment resource to develop short check-in quiz with live results. Determine and implement specific lesson adjustment (pinpoint, do over, individual check-in) if necessary, before proceeding to the next lesson.
-
 # That's Sinatra basics!
 
 Phew! That was a lot to process, but with a little practice, you can use what
 you're learning today to build _all kinds_ of dynamic web applications!
-
-<!-- https://github.com/learn-co-curriculum/kwk-l1-sinatra-organizer -->
